@@ -1,0 +1,128 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100wh;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 55%;
+    height: 75%;
+    background-color: blueviolet;
+    border-radius: 6px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 6px;
+    width: 100%;
+    height: 100px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin-right:10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+button{
+    width: 120px;
+    height: 50px;
+    margin-right:10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.li{
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 110px;
+    height: 30px;
+}
+.li p{
+    margin-left: 12px;
+}
+ul li{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+}
+ */
+
+
+ body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

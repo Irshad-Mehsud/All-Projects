@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:red; */
+    width: 100wh;
+    height: 100vh;
+
+}
+.calculator{
+    width: 230px;
+    height: 370px;
+    background-color: rgb(191, 199, 199);
+    border: solid black 1px;
+    border-radius: 8px;
+   
+}
+#input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+#input{
+  text-align: center;
+  width: 230px;
+  height: 40px;
+  background-color: transparent;
+  /* border:solid black 1px ; */
+  border:solid gray 1.5px;
+  outline:none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#btns{
+    margin-top: 20px;
+    /* background-color: green; */
+    width: 100%;
+}
+#Allbtns{
+width: 50px;
+height: 50px;
+margin: 2px;
+font-size: 18px;
+font-family: Arial, sans-serif;
+font-weight: 600;
+border-radius: 50%;
+border: solid gray 1.5px;
+color: white;
+/* background-color: black; */
+}
+.graybtn{
+    background-color: gray;
+    color: white;
+}
+.orgbtn{
+    background-color: orange;
+    color: white;
+}
+.dgtbtn{
+    background-color: rgb(48, 44, 44);
+}
